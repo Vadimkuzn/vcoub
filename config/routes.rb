@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
   namespace :likes do
   namespace :coub do
-    get 'tasks/vcoub'
-    end
+   get 'tasks/vcoub'
+   end
   end
 
   namespace :likes do
   namespace :coub do
-    get 'tasks/new'
-    end
+   get 'tasks/new'
+   end
   end
 
   root 'likes/coub/tasks#vcoub'
